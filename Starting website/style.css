@@ -651,7 +651,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #333!important;
 }
 
 .container {
@@ -1064,37 +1064,45 @@ blockquote p{
     margin-right: 5px;
 }
 
+#link{
+    color: #000;
+    padding-left: 5%;
+}
+
 #link li{
     margin:20px 0;
 }
 
 #link a {
-    color:#fff!important;
+    color:#000!important;
 
 }
 .black{
-    color:#fff!important;
+    color:#000!important;
 }
 
 .social{
-    color:#fff!important;
+    color:#000!important;
 }
-.bgc-atomic-tangerine {
+.social .icon-md{
+ color : rgba(0, 0, 0, .8)!important;
+}
+/*.bgc-atomic-tangerine {
     background-color: #333333;
-}
+}*/
 
 .tc-white {
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
-    background: #333333;
-    color: #FFFFFF!important;
+   /* background: #333333;*/
+    color: #000!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #555555!important;
-    color: #FFFFFF!important;
+/*    background: #555555!important;*/
+    color: #333!important;
 }
 
 .ltc-atomic-tangerine {
@@ -1105,10 +1113,10 @@ blockquote p{
     color: #333333!important;
 }
 
-.black-background {
-    background-color: rgba(0, 0, 0, 0.7);
+/*.black-background {
+   background-color: rgba(0, 0, 0, 0.7);
     padding: 40px 40px 40px 40px;
-}
+}*/
 
 figcaption{
     color : #575757;
