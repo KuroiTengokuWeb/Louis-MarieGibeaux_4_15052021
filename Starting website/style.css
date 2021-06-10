@@ -1093,6 +1093,7 @@ blockquote p{
 
 .tc-white {
     color: #FFFFFF!important;
+    contain: content;
 }
 
 .btn-atomic-tangerine {
